@@ -12,4 +12,4 @@ This is a currency converter for USD, EUR, GBP and PLN.
 
 ### Link
 
-[Link to this project](https://hajczek.github.io/currency_convertter/)
+[Link to this project](https://hajczek.github.io/currency_converter/)
