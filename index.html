@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Kalkulator walut</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <section>
+    <h1>Kalkulator walut</h1>
+
+    <form>
+      <input type="number" name="start_value" id="start_value" min="0">
+      <label for="select_from">Waluta
+        <select id="select_from">
+          <option name="PLN">PLN</option>
+          <option name="USD">USD</option>
+          <option name="EUR">EUR</option>
+          <option name="GBP">GBP</option>
+        </select>
+      </label>
+
+      <span>&harr;</span>
+
+      <input type="number" name="result_value" id="result_value" min="0" disabled>
+      <label for="select_to">Waluta
+        <select id="select_to">
+          <option name="EUR">EUR</option>
+          <option name="USD">USD</option>
+          <option name="PLN">PLN</option>
+          <option name="GBP">GBP</option>
+        </select>
+      </label>
+    </form>
+  </section>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
