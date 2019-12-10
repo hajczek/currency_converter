@@ -1,7 +1,5 @@
 # PROJECT 'CURRENCY CONVERTER'
 
-## DESCRIPTION - How this code works
-
 This is a currency converter for USD, EUR, GBP and PLN.
 
 ### WHAT USES FOR THIS APPLICATION
